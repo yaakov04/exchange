@@ -1,0 +1,5 @@
+-crear proyecto con 
+    vue create nombreProyecto
+-iniciar el server con  
+    npm run serve
+-
