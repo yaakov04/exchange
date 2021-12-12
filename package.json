@@ -5,12 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "watch": "npm run serve --watch"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "tailwindcss": "^1.1.2",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.3"
   },
   "devDependencies": {
     "@ianaya89/vue-cli-plugin-tailwind": "~1.1.0",
