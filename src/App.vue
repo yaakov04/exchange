@@ -1,18 +1,17 @@
 <template>
-  <div id="app" class="bg-blue-400">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcffome to Your Vue.js App" />
-  </div>
+  <main>
+    <px-header />
+    <px-assets-tablet />
+  </main>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import PxHeader from "@/components/PxHeader";
+import PxAssetsTablet from "@/components/PxAssetsTablet";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
+  components: { PxHeader, PxAssetsTablet },
 };
 </script>
 

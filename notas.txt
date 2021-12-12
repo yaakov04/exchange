@@ -4,4 +4,4 @@
     npm run serve
 -instalar tailwind con 
     vue add @ianaya89/tailwind
--
+-agregar los primeros componentes
