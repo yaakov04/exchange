@@ -1,16 +1,16 @@
 <template>
   <div>
-    <px-assets-tablet :assets="assets" />
+    <px-assets-table :assets="assets" />
   </div>
 </template>
 
 <script>
 import api from '@/api'
-import PxAssetsTablet from '@/components/PxAssetsTablet'
+import PxAssetsTable from '@/components/PxAssetsTable'
 
 export default {
   name: 'Home',
-  components: { PxAssetsTablet },
+  components: { PxAssetsTable },
 
   data() {
     return {
