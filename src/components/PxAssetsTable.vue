@@ -91,8 +91,6 @@ export default {
 
   computed: {
     filteredAssets() {
-      
-
       const altOrder = this.sortOrder === 1 ? -1 : 1
 
       return this.assets
